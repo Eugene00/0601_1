@@ -1,10 +1,10 @@
 class Cal
 {
 public:
-	int getdevide(int a, int b);
+	int getdivide(int a, int b);
 };
 
-int Cal::getdevide(int a, int b)
+int Cal::getdivide(int a, int b)
 {
 	if (!b)
 		return 0;
