@@ -12,3 +12,9 @@ TEST(TestCaseName, getdivide) {
 
 	EXPECT_EQ(3, cal->getdivide(9, 3));
 }
+
+TEST(TestCaseName, getGop01) {
+	EXPECT_EQ(Cal().getGop(2, 3), 6);
+	EXPECT_EQ(Cal().getGop(5, 10), 50);
+	EXPECT_EQ(Cal().getGop(9, 9), 81);
+}
