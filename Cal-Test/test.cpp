@@ -6,7 +6,7 @@ TEST(TestCaseName, TestName) {
 	EXPECT_TRUE(cal != nullptr);
 }
 
-TEST(TestCaseName, ZegopTest) {
+TEST(TestCaseName, getMinusTest) {
 	Cal* cal = new Cal();
 	EXPECT_EQ(5, cal->getMinus(10, 5));
 }
